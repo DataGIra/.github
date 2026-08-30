@@ -6,7 +6,7 @@
 
 <br><br>
 
-# DataGira
+# DataGIra
 
 ### Infraestructura de datos, lista para producción.
 
