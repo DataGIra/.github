@@ -1,41 +1,70 @@
 <div align="center">
 
+<img src="https://img.shields.io/badge/Data%20Engineering-4F6BFF?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/IA%20Aplicada-0B0F17?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/DataOps-4F6BFF?style=for-the-badge&logo=githubactions&logoColor=white" />
+
+<br><br>
+
 # DataGira
 
-**Data Engineering · IA · Automatización**
+### Infraestructura de datos, lista para producción.
 
-Ayudamos a empresas a construir su infraestructura de datos desde cero,
-con pipelines confiables, IA aplicada a procesos reales, y despliegues
-automatizados de extremo a extremo.
+Diseñamos e implementamos la capa de datos de tu empresa —desde la ingesta
+hasta el despliegue automatizado— para que no empieces desde cero.
+
+<br>
+
+[![Website](https://img.shields.io/badge/Website-datagira.com-4F6BFF?style=flat-square)](https://datagira.com)
+[![Location](https://img.shields.io/badge/Sede-Per%C3%BA-F2A65A?style=flat-square)](#)
 
 </div>
 
----
+<br>
 
-### Qué hacemos
+## Servicios
 
-- **Data Engineering** — pipelines de extracción, transformación y carga sobre tu stack actual
-- **IA aplicada** — modelos y agentes conectados a datos reales, no a demos aisladas
-- **DataOps** — CI/CD, gobierno de datos y trazabilidad completa de cada despliegue
+| | Servicio | Qué incluye |
+|---|---|---|
+| 🔧 | **Data Engineering** | Pipelines de extracción, transformación y carga sobre tu stack actual |
+| 🤖 | **IA Aplicada** | Modelos y agentes conectados a datos reales de negocio |
+| ⚙️ | **DataOps & CI/CD** | Despliegues automatizados, gobierno de datos y trazabilidad total |
 
-### Cómo trabajamos
+<br>
 
-Todo nuestro código sigue el mismo patrón: un repositorio central con la lógica
-reutilizable de CI/CD, y proyectos individuales que la consumen sin duplicar nada.
+## Cómo trabajamos
+
+Un solo repositorio central concentra toda la lógica de CI/CD. Los proyectos
+de cada cliente la consumen sin duplicar una sola línea:
 
 ```
-ci-cd-templates/        → workflows reutilizables (CI, despliegue, migraciones)
-proyecto-cliente-x/     → repos hijos que consumen esos workflows
+ci-cd-templates/          →  workflows reutilizables (CI, despliegue, migraciones)
+proyecto-cliente-x/       →  repos hijos que consumen esos workflows
 ```
 
-### Stack
+Cada cambio en la lógica central se propaga automáticamente a todos los
+proyectos conectados — sin tocarlos uno por uno.
 
-`Python` `SQL` `Terraform` `GitHub Actions` `Databricks`
+<br>
+
+## Stack
+
+<div align="left">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+
+</div>
+
+<br>
 
 ---
 
 <div align="center">
 
-📍 Perú &nbsp;·&nbsp; 🔗 [datagira.com](https://datagira.com)
+📍 Perú &nbsp;·&nbsp; 🔗 [datagira.com](https://datagira.com) &nbsp;·&nbsp; ✉️ hola@datagira.com
 
 </div>
